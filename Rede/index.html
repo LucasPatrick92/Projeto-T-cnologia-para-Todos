@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscientização sobre os Riscos das Redes Sociais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Conscientização sobre os Riscos das Redes Sociais</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Bem-vindo</h2>
+            <p>As redes sociais são uma ferramenta poderosa, mas também apresentam vários riscos que podem afetar nossa privacidade e segurança.</p>
+        </section>
+
+        <section id="risks">
+            <h2>Principais Riscos:</h2>
+            <div class="section-content">
+                <div class="risk-item" onmouseover="showRiskDetail(0)" onmouseout="hideRiskDetail(0)">
+                    <h3>Exposição Excessiva de Informações Pessoais</h3>
+                    <p class="risk-detail" id="risk-detail-0">Compartilhar informações demais pode levar a riscos de privacidade e segurança.</p>
+                    <div class="risk-image" id="risk-image-0"><img src="Imagens/exposicao-informacoes.jpg" alt="Exposição de Informações"></div>
+                </div>
+                <div class="risk-item" onmouseover="showRiskDetail(1)" onmouseout="hideRiskDetail(1)">
+                    <h3>Ciberbullying</h3>
+                    <p class="risk-detail" id="risk-detail-1">O ciberbullying pode causar sérios problemas emocionais e psicológicos.</p>
+                    <div class="risk-image" id="risk-image-1"><img src="Imagens/ciberbullying.jpg" alt="Ciberbullying"></div>
+                </div>
+                <div class="risk-item" onmouseover="showRiskDetail(2)" onmouseout="hideRiskDetail(2)">
+                    <h3>Vazamento de Dados</h3>
+                    <p class="risk-detail" id="risk-detail-2">As redes sociais são alvos frequentes de hackers, o que pode resultar em vazamentos de dados.</p>
+                    <div class="risk-image" id="risk-image-2"><img src="Imagens/vazamento-dados.jpg" alt="Vazamento de Dados"></div>
+                </div>
+                <div class="risk-item" onmouseover="showRiskDetail(3)" onmouseout="hideRiskDetail(3)">
+                    <h3>Dependência e Impacto na Saúde Mental</h3>
+                    <p class="risk-detail" id="risk-detail-3">O uso excessivo de redes sociais pode levar à dependência e afetar negativamente a saúde mental.</p>
+                    <div class="risk-image" id="risk-image-3"><img src="Imagens/dependencia-saude-mental.jpg" alt="Dependência e Saúde Mental"></div>
+                </div>
+                <div class="risk-item" onmouseover="showRiskDetail(4)" onmouseout="hideRiskDetail(4)">
+                    <h3>Fake News e Desinformação</h3>
+                    <p class="risk-detail" id="risk-detail-4">As redes sociais são um canal para a disseminação de informações falsas e desinformação.</p>
+                    <div class="risk-image" id="risk-image-4"><img src="Imagens/fake-news.jpg" alt="Fake News"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips">
+            <h2>Dicas de Segurança</h2>
+            <ul>
+                <li>Não compartilhe informações pessoais sensíveis.</li>
+                <li>Use senhas fortes e autenticação de dois fatores.</li>
+                <li>Verifique as configurações de privacidade de suas contas.</li>
+                <li>Seja cético em relação a informações não verificadas.</li>
+                <li>Denuncie comportamentos abusivos ou suspeitos.</li>
+            </ul>
+        </section>
+
+        <section id="quiz">
+            <h2>Teste seu Conhecimento</h2>
+            <div id="quiz-questions">
+                <!-- Perguntas do quiz serão geradas dinamicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Conscientização sobre os Riscos das Redes Sociais</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
